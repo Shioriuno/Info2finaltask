@@ -78,6 +78,6 @@ def draw():
         for b in balls:
                 pyxel.circ(b.x, b.y, Ball.r, Ball.color)
         pyxel.rect(padx-20, 195, 40, 5, 14)
-        pyxel.text(100,100,str(point),0)
+        pyxel.text(100,100,str(point),14)
 
 pyxel.run(update, draw)
